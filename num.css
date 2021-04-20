@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+  }
+
+  
+               html{
+                  padding: 0;
+       margin: 0;
+        height: 100%;
+      
+               }
+                body {
+       padding: 0;
+       margin: 0;
+        height: 100%;
+        background-size: 100%;
+        background-image: url(./wp3161558.jpg)
+        
+        
+      
+        }
+.main{
+    background:none;
+            border-radius: 10%;
+            color: rgb(252, 4, 4);
+            background-position: center;
+            padding: 50px   
+}
+.bb-title{
+
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(26, 229, 243);
+    width: 200px;
+    border-left: solid 5px rgb(2, 210, 247);
+    border-radius: 20%;
+}
+.bb input{
+
+    
+    border-bottom: 5px solid #fff;
+    border-left: 4px solid rgb(252, 7, 7);
+    border-radius: 20%;
+    box-shadow: 0 2px 13px rgba(0, 0, 0, 1);
+
+    
+}
+
+form{
+ max-width: 350px;
+ width: 100%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+
+}
+.bb-b :hover{
+   
+    
+    box-shadow: 0 12px 20px rgb(23, 255, 62);
+    background-color: lightgreen;
+    color: white;
+
+}

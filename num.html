@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./num.css">
+</head>
+<body>
+  
+    <div class="main">
+    
+    <form onsubmit="return printEvenNums()">
+      <div class="bb-title">
+      <h3>Print Even and Odd Numbers within a Range!</h3>
+    </div>
+    <div class="bb">
+      <input type="number"  id="start" placeholder="Enter Low Limit">
+    </div>
+    <br>
+    <div class="bb">
+      <input type="number" id="end" placeholder="Enter High Limit"><br>
+    </div>
+    <br>
+    <div class="bb-b">
+      <input type="button" onclick="printEvenNums()" value="Print Even Numbers">
+    </div><br>
+    <div class="bb-b">
+      <input type="button" onclick="printOddNums()" value="Print Odd Numbers">
+    </div>
+    <br>
+    <div id="result"></div>
+    <script src="./num.js"></script>
+    
+</form>
+</div>
+  </body>
+
+   
+</html>
+    
